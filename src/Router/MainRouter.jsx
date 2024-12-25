@@ -3,7 +3,8 @@ import Register from '../Components/Register'
 import { Route, Routes } from 'react-router-dom'
 import Login from '../Components/Login'
 import Todo from '../Components/Todo'
-import {PrivateRoute} from './privateRoute'
+
+import { PrivateRoute } from './privateRoute'
 
 
 function MainRouter() {

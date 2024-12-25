@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navigate } from 'react-router-dom'
 
-export function PrivateRoute({children}) {
+ function PrivateRoute({children}) {
     const User_login = localStorage.getItem("login")
   return (
     <>
@@ -11,5 +11,6 @@ export function PrivateRoute({children}) {
     </>
   )
 }
+export default PrivateRoute
 
 

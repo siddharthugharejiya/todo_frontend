@@ -36,6 +36,7 @@ function Todo() {
         task: "",
         id: null,
       })
+      dispatch(all_data())
     }
   }
 
